@@ -1,0 +1,2002 @@
+[
+    {
+        "roomNumber": 185,
+        "price": 9634,
+        "beds": 1,
+        "bedrooms": 4,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": false,
+            "tub": true,
+            "smoking": false,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": false,
+            "garden": true,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 131,
+        "price": 7043,
+        "beds": 9,
+        "bedrooms": 5,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": true,
+            "tub": true,
+            "smoking": true,
+            "pets": false,
+            "parking": false,
+            "pool": true,
+            "mountain": false,
+            "garden": true,
+            "events": false,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 123,
+        "price": 6672,
+        "beds": 2,
+        "bedrooms": 9,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": true,
+            "tub": true,
+            "smoking": false,
+            "pets": false,
+            "parking": false,
+            "pool": true,
+            "mountain": true,
+            "garden": false,
+            "events": false,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 116,
+        "price": 6101,
+        "beds": 10,
+        "bedrooms": 5,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": false,
+            "tub": false,
+            "smoking": false,
+            "pets": true,
+            "parking": false,
+            "pool": true,
+            "mountain": false,
+            "garden": false,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 179,
+        "price": 4594,
+        "beds": 4,
+        "bedrooms": 8,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": true,
+            "tub": true,
+            "smoking": true,
+            "pets": true,
+            "parking": true,
+            "pool": false,
+            "mountain": false,
+            "garden": false,
+            "events": false,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 186,
+        "price": 7208,
+        "beds": 10,
+        "bedrooms": 9,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": true,
+            "tub": true,
+            "smoking": false,
+            "pets": false,
+            "parking": false,
+            "pool": true,
+            "mountain": true,
+            "garden": false,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 121,
+        "price": 2010,
+        "beds": 1,
+        "bedrooms": 8,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": true,
+            "tub": true,
+            "smoking": true,
+            "pets": true,
+            "parking": true,
+            "pool": false,
+            "mountain": true,
+            "garden": true,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 189,
+        "price": 5395,
+        "beds": 5,
+        "bedrooms": 1,
+        "tags": {
+            "wifi": true,
+            "tv": true,
+            "kitchen": true,
+            "tub": true,
+            "smoking": true,
+            "pets": true,
+            "parking": true,
+            "pool": false,
+            "mountain": false,
+            "garden": false,
+            "events": false,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 198,
+        "price": 2737,
+        "beds": 5,
+        "bedrooms": 2,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": true,
+            "tub": true,
+            "smoking": false,
+            "pets": false,
+            "parking": false,
+            "pool": true,
+            "mountain": true,
+            "garden": true,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 176,
+        "price": 6864,
+        "beds": 2,
+        "bedrooms": 5,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": false,
+            "tub": true,
+            "smoking": false,
+            "pets": true,
+            "parking": true,
+            "pool": false,
+            "mountain": false,
+            "garden": false,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 121,
+        "price": 8427,
+        "beds": 6,
+        "bedrooms": 2,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": false,
+            "tub": true,
+            "smoking": false,
+            "pets": true,
+            "parking": false,
+            "pool": true,
+            "mountain": true,
+            "garden": false,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 139,
+        "price": 2515,
+        "beds": 4,
+        "bedrooms": 10,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": false,
+            "tub": false,
+            "smoking": true,
+            "pets": false,
+            "parking": false,
+            "pool": true,
+            "mountain": true,
+            "garden": false,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 130,
+        "price": 1137,
+        "beds": 3,
+        "bedrooms": 2,
+        "tags": {
+            "wifi": true,
+            "tv": true,
+            "kitchen": true,
+            "tub": false,
+            "smoking": false,
+            "pets": true,
+            "parking": false,
+            "pool": true,
+            "mountain": false,
+            "garden": false,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 162,
+        "price": 2877,
+        "beds": 9,
+        "bedrooms": 5,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": false,
+            "tub": false,
+            "smoking": true,
+            "pets": false,
+            "parking": true,
+            "pool": true,
+            "mountain": true,
+            "garden": true,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 185,
+        "price": 7181,
+        "beds": 9,
+        "bedrooms": 3,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": false,
+            "tub": false,
+            "smoking": false,
+            "pets": false,
+            "parking": true,
+            "pool": false,
+            "mountain": true,
+            "garden": false,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 134,
+        "price": 7063,
+        "beds": 6,
+        "bedrooms": 4,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": false,
+            "tub": false,
+            "smoking": false,
+            "pets": false,
+            "parking": true,
+            "pool": true,
+            "mountain": true,
+            "garden": false,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 164,
+        "price": 5644,
+        "beds": 5,
+        "bedrooms": 4,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": false,
+            "tub": true,
+            "smoking": true,
+            "pets": false,
+            "parking": true,
+            "pool": false,
+            "mountain": true,
+            "garden": false,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 132,
+        "price": 8392,
+        "beds": 5,
+        "bedrooms": 2,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": false,
+            "tub": true,
+            "smoking": true,
+            "pets": false,
+            "parking": true,
+            "pool": true,
+            "mountain": true,
+            "garden": false,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 106,
+        "price": 2877,
+        "beds": 9,
+        "bedrooms": 3,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": true,
+            "tub": true,
+            "smoking": false,
+            "pets": false,
+            "parking": false,
+            "pool": true,
+            "mountain": true,
+            "garden": true,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 193,
+        "price": 3951,
+        "beds": 10,
+        "bedrooms": 7,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": false,
+            "tub": false,
+            "smoking": false,
+            "pets": false,
+            "parking": true,
+            "pool": false,
+            "mountain": false,
+            "garden": false,
+            "events": false,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 113,
+        "price": 9862,
+        "beds": 1,
+        "bedrooms": 2,
+        "tags": {
+            "wifi": true,
+            "tv": true,
+            "kitchen": false,
+            "tub": false,
+            "smoking": false,
+            "pets": false,
+            "parking": true,
+            "pool": false,
+            "mountain": false,
+            "garden": false,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 169,
+        "price": 3359,
+        "beds": 9,
+        "bedrooms": 2,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": false,
+            "tub": true,
+            "smoking": true,
+            "pets": true,
+            "parking": true,
+            "pool": false,
+            "mountain": true,
+            "garden": true,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 146,
+        "price": 6543,
+        "beds": 9,
+        "bedrooms": 3,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": false,
+            "tub": true,
+            "smoking": true,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": true,
+            "garden": false,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 112,
+        "price": 1120,
+        "beds": 10,
+        "bedrooms": 4,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": false,
+            "tub": false,
+            "smoking": true,
+            "pets": false,
+            "parking": false,
+            "pool": true,
+            "mountain": false,
+            "garden": true,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 114,
+        "price": 2620,
+        "beds": 5,
+        "bedrooms": 2,
+        "tags": {
+            "wifi": true,
+            "tv": true,
+            "kitchen": false,
+            "tub": true,
+            "smoking": false,
+            "pets": true,
+            "parking": false,
+            "pool": true,
+            "mountain": false,
+            "garden": false,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 184,
+        "price": 2728,
+        "beds": 7,
+        "bedrooms": 3,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": true,
+            "tub": true,
+            "smoking": true,
+            "pets": false,
+            "parking": true,
+            "pool": false,
+            "mountain": true,
+            "garden": false,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 175,
+        "price": 9789,
+        "beds": 3,
+        "bedrooms": 4,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": true,
+            "tub": true,
+            "smoking": false,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": true,
+            "garden": false,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 137,
+        "price": 6029,
+        "beds": 8,
+        "bedrooms": 4,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": true,
+            "tub": false,
+            "smoking": true,
+            "pets": false,
+            "parking": true,
+            "pool": true,
+            "mountain": true,
+            "garden": false,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 157,
+        "price": 5553,
+        "beds": 7,
+        "bedrooms": 7,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": false,
+            "tub": true,
+            "smoking": true,
+            "pets": false,
+            "parking": true,
+            "pool": true,
+            "mountain": true,
+            "garden": true,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 174,
+        "price": 5804,
+        "beds": 2,
+        "bedrooms": 6,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": false,
+            "tub": false,
+            "smoking": false,
+            "pets": false,
+            "parking": true,
+            "pool": true,
+            "mountain": false,
+            "garden": true,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 120,
+        "price": 4472,
+        "beds": 1,
+        "bedrooms": 9,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": true,
+            "tub": true,
+            "smoking": false,
+            "pets": true,
+            "parking": false,
+            "pool": true,
+            "mountain": false,
+            "garden": false,
+            "events": false,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 164,
+        "price": 3728,
+        "beds": 6,
+        "bedrooms": 7,
+        "tags": {
+            "wifi": true,
+            "tv": true,
+            "kitchen": false,
+            "tub": true,
+            "smoking": true,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": false,
+            "garden": false,
+            "events": false,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 110,
+        "price": 4007,
+        "beds": 6,
+        "bedrooms": 2,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": false,
+            "tub": false,
+            "smoking": true,
+            "pets": false,
+            "parking": true,
+            "pool": true,
+            "mountain": false,
+            "garden": true,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 132,
+        "price": 3156,
+        "beds": 7,
+        "bedrooms": 6,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": true,
+            "tub": true,
+            "smoking": true,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": true,
+            "garden": true,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 166,
+        "price": 4101,
+        "beds": 3,
+        "bedrooms": 7,
+        "tags": {
+            "wifi": true,
+            "tv": true,
+            "kitchen": true,
+            "tub": true,
+            "smoking": true,
+            "pets": false,
+            "parking": false,
+            "pool": false,
+            "mountain": true,
+            "garden": false,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 161,
+        "price": 8996,
+        "beds": 4,
+        "bedrooms": 3,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": false,
+            "tub": true,
+            "smoking": true,
+            "pets": false,
+            "parking": true,
+            "pool": false,
+            "mountain": true,
+            "garden": false,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 107,
+        "price": 7963,
+        "beds": 5,
+        "bedrooms": 6,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": false,
+            "tub": true,
+            "smoking": true,
+            "pets": false,
+            "parking": false,
+            "pool": true,
+            "mountain": true,
+            "garden": false,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 161,
+        "price": 1313,
+        "beds": 4,
+        "bedrooms": 1,
+        "tags": {
+            "wifi": true,
+            "tv": true,
+            "kitchen": true,
+            "tub": false,
+            "smoking": false,
+            "pets": false,
+            "parking": true,
+            "pool": false,
+            "mountain": false,
+            "garden": true,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 145,
+        "price": 1848,
+        "beds": 10,
+        "bedrooms": 3,
+        "tags": {
+            "wifi": true,
+            "tv": true,
+            "kitchen": false,
+            "tub": false,
+            "smoking": false,
+            "pets": false,
+            "parking": false,
+            "pool": true,
+            "mountain": false,
+            "garden": false,
+            "events": false,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 109,
+        "price": 7716,
+        "beds": 10,
+        "bedrooms": 4,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": false,
+            "tub": true,
+            "smoking": true,
+            "pets": true,
+            "parking": false,
+            "pool": true,
+            "mountain": true,
+            "garden": false,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 135,
+        "price": 2507,
+        "beds": 9,
+        "bedrooms": 8,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": true,
+            "tub": true,
+            "smoking": false,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": true,
+            "garden": true,
+            "events": false,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 137,
+        "price": 9942,
+        "beds": 8,
+        "bedrooms": 5,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": true,
+            "tub": false,
+            "smoking": true,
+            "pets": false,
+            "parking": true,
+            "pool": false,
+            "mountain": false,
+            "garden": false,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 119,
+        "price": 3546,
+        "beds": 8,
+        "bedrooms": 6,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": false,
+            "tub": false,
+            "smoking": true,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": true,
+            "garden": true,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 147,
+        "price": 5489,
+        "beds": 3,
+        "bedrooms": 5,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": false,
+            "tub": true,
+            "smoking": false,
+            "pets": true,
+            "parking": true,
+            "pool": false,
+            "mountain": false,
+            "garden": true,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 172,
+        "price": 3165,
+        "beds": 5,
+        "bedrooms": 1,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": true,
+            "tub": false,
+            "smoking": false,
+            "pets": true,
+            "parking": true,
+            "pool": true,
+            "mountain": true,
+            "garden": true,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 110,
+        "price": 2781,
+        "beds": 8,
+        "bedrooms": 9,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": true,
+            "tub": false,
+            "smoking": true,
+            "pets": false,
+            "parking": true,
+            "pool": true,
+            "mountain": true,
+            "garden": true,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 113,
+        "price": 8992,
+        "beds": 7,
+        "bedrooms": 2,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": false,
+            "tub": false,
+            "smoking": true,
+            "pets": true,
+            "parking": true,
+            "pool": false,
+            "mountain": true,
+            "garden": false,
+            "events": false,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 140,
+        "price": 7167,
+        "beds": 9,
+        "bedrooms": 4,
+        "tags": {
+            "wifi": true,
+            "tv": true,
+            "kitchen": true,
+            "tub": false,
+            "smoking": false,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": true,
+            "garden": false,
+            "events": false,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 189,
+        "price": 6614,
+        "beds": 1,
+        "bedrooms": 5,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": true,
+            "tub": false,
+            "smoking": false,
+            "pets": true,
+            "parking": false,
+            "pool": true,
+            "mountain": true,
+            "garden": true,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 186,
+        "price": 9561,
+        "beds": 6,
+        "bedrooms": 6,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": false,
+            "tub": false,
+            "smoking": true,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": false,
+            "garden": false,
+            "events": false,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 164,
+        "price": 2358,
+        "beds": 5,
+        "bedrooms": 3,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": false,
+            "tub": true,
+            "smoking": false,
+            "pets": false,
+            "parking": true,
+            "pool": true,
+            "mountain": true,
+            "garden": false,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 194,
+        "price": 4586,
+        "beds": 9,
+        "bedrooms": 1,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": true,
+            "tub": false,
+            "smoking": false,
+            "pets": true,
+            "parking": false,
+            "pool": true,
+            "mountain": false,
+            "garden": false,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 124,
+        "price": 7039,
+        "beds": 4,
+        "bedrooms": 5,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": false,
+            "tub": true,
+            "smoking": true,
+            "pets": false,
+            "parking": false,
+            "pool": true,
+            "mountain": true,
+            "garden": true,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 167,
+        "price": 5485,
+        "beds": 10,
+        "bedrooms": 5,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": true,
+            "tub": true,
+            "smoking": true,
+            "pets": false,
+            "parking": true,
+            "pool": true,
+            "mountain": false,
+            "garden": false,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 100,
+        "price": 4211,
+        "beds": 10,
+        "bedrooms": 9,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": false,
+            "tub": false,
+            "smoking": true,
+            "pets": false,
+            "parking": true,
+            "pool": false,
+            "mountain": false,
+            "garden": true,
+            "events": false,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 147,
+        "price": 4541,
+        "beds": 8,
+        "bedrooms": 4,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": true,
+            "tub": false,
+            "smoking": false,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": true,
+            "garden": true,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 135,
+        "price": 3602,
+        "beds": 5,
+        "bedrooms": 4,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": false,
+            "tub": false,
+            "smoking": false,
+            "pets": true,
+            "parking": true,
+            "pool": false,
+            "mountain": true,
+            "garden": false,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 119,
+        "price": 1330,
+        "beds": 10,
+        "bedrooms": 9,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": false,
+            "tub": false,
+            "smoking": true,
+            "pets": true,
+            "parking": true,
+            "pool": true,
+            "mountain": true,
+            "garden": true,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 108,
+        "price": 5322,
+        "beds": 7,
+        "bedrooms": 5,
+        "tags": {
+            "wifi": true,
+            "tv": true,
+            "kitchen": true,
+            "tub": false,
+            "smoking": false,
+            "pets": true,
+            "parking": true,
+            "pool": true,
+            "mountain": true,
+            "garden": true,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 134,
+        "price": 8799,
+        "beds": 2,
+        "bedrooms": 6,
+        "tags": {
+            "wifi": true,
+            "tv": true,
+            "kitchen": true,
+            "tub": false,
+            "smoking": true,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": true,
+            "garden": false,
+            "events": false,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 154,
+        "price": 2792,
+        "beds": 7,
+        "bedrooms": 2,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": true,
+            "tub": false,
+            "smoking": true,
+            "pets": false,
+            "parking": true,
+            "pool": true,
+            "mountain": true,
+            "garden": false,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 108,
+        "price": 7556,
+        "beds": 3,
+        "bedrooms": 3,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": false,
+            "tub": true,
+            "smoking": true,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": true,
+            "garden": false,
+            "events": false,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 115,
+        "price": 3449,
+        "beds": 4,
+        "bedrooms": 2,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": false,
+            "tub": true,
+            "smoking": false,
+            "pets": false,
+            "parking": false,
+            "pool": false,
+            "mountain": true,
+            "garden": true,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 102,
+        "price": 9604,
+        "beds": 10,
+        "bedrooms": 2,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": true,
+            "tub": false,
+            "smoking": false,
+            "pets": true,
+            "parking": false,
+            "pool": true,
+            "mountain": true,
+            "garden": true,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 163,
+        "price": 3388,
+        "beds": 8,
+        "bedrooms": 7,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": true,
+            "tub": false,
+            "smoking": true,
+            "pets": false,
+            "parking": true,
+            "pool": true,
+            "mountain": true,
+            "garden": false,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 108,
+        "price": 9604,
+        "beds": 10,
+        "bedrooms": 4,
+        "tags": {
+            "wifi": true,
+            "tv": true,
+            "kitchen": false,
+            "tub": true,
+            "smoking": false,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": false,
+            "garden": false,
+            "events": false,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 188,
+        "price": 2099,
+        "beds": 2,
+        "bedrooms": 4,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": true,
+            "tub": false,
+            "smoking": false,
+            "pets": false,
+            "parking": false,
+            "pool": false,
+            "mountain": true,
+            "garden": false,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 168,
+        "price": 9019,
+        "beds": 7,
+        "bedrooms": 2,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": true,
+            "tub": false,
+            "smoking": false,
+            "pets": false,
+            "parking": true,
+            "pool": false,
+            "mountain": true,
+            "garden": true,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 114,
+        "price": 4033,
+        "beds": 6,
+        "bedrooms": 1,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": false,
+            "tub": true,
+            "smoking": false,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": false,
+            "garden": true,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 129,
+        "price": 8919,
+        "beds": 10,
+        "bedrooms": 7,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": false,
+            "tub": false,
+            "smoking": true,
+            "pets": false,
+            "parking": true,
+            "pool": true,
+            "mountain": true,
+            "garden": false,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 191,
+        "price": 7159,
+        "beds": 10,
+        "bedrooms": 4,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": false,
+            "tub": false,
+            "smoking": true,
+            "pets": false,
+            "parking": true,
+            "pool": true,
+            "mountain": true,
+            "garden": false,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 123,
+        "price": 9117,
+        "beds": 5,
+        "bedrooms": 9,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": true,
+            "tub": true,
+            "smoking": true,
+            "pets": false,
+            "parking": true,
+            "pool": false,
+            "mountain": true,
+            "garden": true,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 128,
+        "price": 8258,
+        "beds": 2,
+        "bedrooms": 4,
+        "tags": {
+            "wifi": true,
+            "tv": true,
+            "kitchen": true,
+            "tub": true,
+            "smoking": false,
+            "pets": true,
+            "parking": true,
+            "pool": false,
+            "mountain": true,
+            "garden": false,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 117,
+        "price": 2838,
+        "beds": 4,
+        "bedrooms": 10,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": false,
+            "tub": false,
+            "smoking": true,
+            "pets": false,
+            "parking": false,
+            "pool": false,
+            "mountain": true,
+            "garden": true,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 168,
+        "price": 5966,
+        "beds": 5,
+        "bedrooms": 7,
+        "tags": {
+            "wifi": true,
+            "tv": true,
+            "kitchen": true,
+            "tub": false,
+            "smoking": false,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": true,
+            "garden": true,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 194,
+        "price": 9756,
+        "beds": 2,
+        "bedrooms": 7,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": false,
+            "tub": true,
+            "smoking": false,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": true,
+            "garden": true,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 173,
+        "price": 1010,
+        "beds": 10,
+        "bedrooms": 1,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": false,
+            "tub": true,
+            "smoking": false,
+            "pets": true,
+            "parking": true,
+            "pool": true,
+            "mountain": true,
+            "garden": true,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 108,
+        "price": 1774,
+        "beds": 8,
+        "bedrooms": 5,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": true,
+            "tub": false,
+            "smoking": true,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": false,
+            "garden": true,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 106,
+        "price": 8971,
+        "beds": 10,
+        "bedrooms": 3,
+        "tags": {
+            "wifi": true,
+            "tv": true,
+            "kitchen": true,
+            "tub": false,
+            "smoking": true,
+            "pets": false,
+            "parking": false,
+            "pool": false,
+            "mountain": false,
+            "garden": true,
+            "events": false,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 107,
+        "price": 4991,
+        "beds": 3,
+        "bedrooms": 10,
+        "tags": {
+            "wifi": true,
+            "tv": true,
+            "kitchen": true,
+            "tub": true,
+            "smoking": false,
+            "pets": false,
+            "parking": false,
+            "pool": true,
+            "mountain": false,
+            "garden": true,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 114,
+        "price": 8244,
+        "beds": 3,
+        "bedrooms": 5,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": false,
+            "tub": true,
+            "smoking": false,
+            "pets": false,
+            "parking": false,
+            "pool": true,
+            "mountain": false,
+            "garden": true,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 157,
+        "price": 2060,
+        "beds": 3,
+        "bedrooms": 4,
+        "tags": {
+            "wifi": true,
+            "tv": true,
+            "kitchen": true,
+            "tub": true,
+            "smoking": false,
+            "pets": true,
+            "parking": true,
+            "pool": true,
+            "mountain": true,
+            "garden": true,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 159,
+        "price": 3397,
+        "beds": 3,
+        "bedrooms": 5,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": false,
+            "tub": true,
+            "smoking": false,
+            "pets": false,
+            "parking": false,
+            "pool": true,
+            "mountain": false,
+            "garden": false,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 129,
+        "price": 2739,
+        "beds": 3,
+        "bedrooms": 4,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": true,
+            "tub": false,
+            "smoking": false,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": true,
+            "garden": true,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 197,
+        "price": 6990,
+        "beds": 5,
+        "bedrooms": 8,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": false,
+            "tub": false,
+            "smoking": true,
+            "pets": false,
+            "parking": false,
+            "pool": true,
+            "mountain": false,
+            "garden": false,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 167,
+        "price": 9938,
+        "beds": 4,
+        "bedrooms": 6,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": false,
+            "tub": true,
+            "smoking": true,
+            "pets": true,
+            "parking": true,
+            "pool": true,
+            "mountain": false,
+            "garden": true,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 107,
+        "price": 9351,
+        "beds": 5,
+        "bedrooms": 4,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": false,
+            "tub": true,
+            "smoking": true,
+            "pets": true,
+            "parking": true,
+            "pool": true,
+            "mountain": false,
+            "garden": true,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 100,
+        "price": 7376,
+        "beds": 5,
+        "bedrooms": 6,
+        "tags": {
+            "wifi": true,
+            "tv": true,
+            "kitchen": false,
+            "tub": false,
+            "smoking": false,
+            "pets": true,
+            "parking": true,
+            "pool": false,
+            "mountain": false,
+            "garden": false,
+            "events": true,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 155,
+        "price": 5016,
+        "beds": 7,
+        "bedrooms": 9,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": false,
+            "tub": false,
+            "smoking": false,
+            "pets": false,
+            "parking": false,
+            "pool": false,
+            "mountain": false,
+            "garden": true,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 128,
+        "price": 4030,
+        "beds": 1,
+        "bedrooms": 5,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": false,
+            "tub": true,
+            "smoking": true,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": false,
+            "garden": false,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 131,
+        "price": 9517,
+        "beds": 8,
+        "bedrooms": 2,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": true,
+            "tub": false,
+            "smoking": true,
+            "pets": true,
+            "parking": true,
+            "pool": true,
+            "mountain": false,
+            "garden": false,
+            "events": false,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 147,
+        "price": 2433,
+        "beds": 8,
+        "bedrooms": 9,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": false,
+            "tub": false,
+            "smoking": true,
+            "pets": false,
+            "parking": true,
+            "pool": false,
+            "mountain": true,
+            "garden": false,
+            "events": false,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 133,
+        "price": 9694,
+        "beds": 3,
+        "bedrooms": 1,
+        "tags": {
+            "wifi": false,
+            "tv": true,
+            "kitchen": false,
+            "tub": false,
+            "smoking": false,
+            "pets": false,
+            "parking": true,
+            "pool": false,
+            "mountain": false,
+            "garden": true,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 125,
+        "price": 7849,
+        "beds": 1,
+        "bedrooms": 7,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": false,
+            "tub": true,
+            "smoking": true,
+            "pets": false,
+            "parking": false,
+            "pool": true,
+            "mountain": false,
+            "garden": false,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 173,
+        "price": 3479,
+        "beds": 10,
+        "bedrooms": 6,
+        "tags": {
+            "wifi": true,
+            "tv": true,
+            "kitchen": false,
+            "tub": true,
+            "smoking": false,
+            "pets": false,
+            "parking": false,
+            "pool": false,
+            "mountain": false,
+            "garden": false,
+            "events": false,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 143,
+        "price": 7741,
+        "beds": 3,
+        "bedrooms": 1,
+        "tags": {
+            "wifi": true,
+            "tv": true,
+            "kitchen": false,
+            "tub": false,
+            "smoking": false,
+            "pets": true,
+            "parking": false,
+            "pool": true,
+            "mountain": false,
+            "garden": true,
+            "events": true,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 137,
+        "price": 2964,
+        "beds": 5,
+        "bedrooms": 4,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": false,
+            "tub": false,
+            "smoking": true,
+            "pets": false,
+            "parking": false,
+            "pool": false,
+            "mountain": true,
+            "garden": false,
+            "events": false,
+            "work": false
+        }
+    },
+    {
+        "roomNumber": 176,
+        "price": 8569,
+        "beds": 7,
+        "bedrooms": 9,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": true,
+            "tub": true,
+            "smoking": true,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": false,
+            "garden": true,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 181,
+        "price": 6421,
+        "beds": 4,
+        "bedrooms": 6,
+        "tags": {
+            "wifi": true,
+            "tv": false,
+            "kitchen": false,
+            "tub": true,
+            "smoking": false,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": true,
+            "garden": false,
+            "events": false,
+            "work": true
+        }
+    },
+    {
+        "roomNumber": 120,
+        "price": 8097,
+        "beds": 3,
+        "bedrooms": 2,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": false,
+            "tub": false,
+            "smoking": true,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": true,
+            "garden": false,
+            "events": false,
+            "work": false
+        }
+    }
+]
