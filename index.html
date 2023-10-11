@@ -43,6 +43,17 @@
                     <input id="cell" name="cell" inputmode="tel" type="tel" required>
                 </div>
             </fieldset>
+            <fieldset>
+                <legend>Address</legend>
+                <div>
+                    <label for="addr">Address Line</label>
+                    <input id="addr" name="addr" type="text" required>
+                </div>
+                <div>
+                    <label for="zip">ZIP</label>
+                    <input id="zip" name="zip" type="number" required>
+                </div>
+            </fieldset>
         </div>
         <!--RESERVATION INFO COLUMN-->
         <div class="col">
@@ -55,18 +66,28 @@
             </fieldset>
             <fieldset>
                 <legend>Guests</legend>
-                <label for="adults">Adults</label>
-                <input id="adults" name="adults" type="number" required>
-                <label for="children">Children</label>
-                <input id="children" name="children" type="number" required>
-                <label for="infants">Infants</label>
-                <input id="infants" name="infants" type="number" required>
+                <div>
+                    <label for="adults">Adults</label>
+                    <input id="adults" name="adults" type="number" required>
+                </div>
+                <div>
+                    <label for="children">Children</label>
+                    <input id="children" name="children" type="number" required>                        
+                </div>
+                <div>
+                    <label for="infants">Infants</label>
+                    <input id="infants" name="infants" type="number" required>
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Payment Information</legend>
-                <label for="nights">Nights</label>
-                <input id="nights" name="nights" type="number" required>
-                <label for="paymethod">Payment Method</label>
+                <div>
+                    <label for="nights">Nights</label>
+                    <input id="nights" name="nights" type="number" required>
+                </div>
+                <div>
+                    <label for="paymethod">Payment Method</label>
+                </div>
             </fieldset>
         </div>
         <button type="submit" id="submit">Submit</button>
