@@ -38,15 +38,36 @@
             <fieldset>
                 <legend>Contact Details</legend>
                 <div>
-                    <!--numbers only dapat-->
+                    <!--TODO numbers only dapat-->
                     <label for="cell">Contact Number</label>
-                    <input id="cell" name="cell" type="text" required>
+                    <input id="cell" name="cell" inputmode="tel" type="tel" required>
                 </div>
             </fieldset>
         </div>
         <!--RESERVATION INFO COLUMN-->
         <div class="col">
             <h1>RESERVATION INFO</h1>
+            <fieldset>
+                <legend>Trip Details</legend>
+                <!--TODO-->
+                <label for="checkin">Check-in</label>
+                <label for="checkout">Check-out</label>
+            </fieldset>
+            <fieldset>
+                <legend>Guests</legend>
+                <label for="adults">Adults</label>
+                <input id="adults" name="adults" type="number" required>
+                <label for="children">Children</label>
+                <input id="children" name="children" type="number" required>
+                <label for="infants">Infants</label>
+                <input id="infants" name="infants" type="number" required>
+            </fieldset>
+            <fieldset>
+                <legend>Payment Information</legend>
+                <label for="nights">Nights</label>
+                <input id="nights" name="nights" type="number" required>
+                <label for="paymethod">Payment Method</label>
+            </fieldset>
         </div>
         <button type="submit" id="submit">Submit</button>
     </form>
