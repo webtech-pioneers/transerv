@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baguio Transient Reservation Form</title>
+    <link rel="stylesheet" href="style/forms-style.css">
+    <script src="javascript/forms-script.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <!--NAVIGATION BAR-->
+    <header>
+        <img class="logo" src="logo.png" alt="logo">
+  
+            <ul class="nav_links">
+                <li><a href="index-home.html#home">Home</a></li>
+                <li><a href="index-home.html#about">About</a></li>
+            </ul>
+            <a href="index-home.html#transient-list"><button class="find">Find</button></a>
+    </header>
+
+    <!--PROGRESS BAR-->
+    <div class="container">
+      <div class="steps">
+        <span class="circle active">1</span>
+        <span class="circle">2</span>
+        <span class="circle">3</span>
+        <span class="circle">4</span>
+        <div class="progress-bar">
+          <span class="indicator"></span>
+        </div>
+      </div>
+      <div class="label">
+        <p id="t-info">Trip Details</p>
+        <p id="p-info">Personal Information</p>
+        <p id="pa-info">Payment Information</pn>
+        <p id="s-info">Summary</p>
+    </div>
+
+    <!--CONTENT-->
+      <div class ="sections">
+        <div id="section-body">
+
+        <!--TRIP DETAILS-->
+        <!--TO-DO PA: 
+            CHECK-IN/CHECK-OUT 
+            DISABLE BUTTON IF LESS THAN 1 ADULT
+            DISABLE BUTTON IF LESS THAN 0 CHILDREN/INFANTS
+        -->
+        <div id="trip-details">
+            <div class="img-container">
+                <span id="left" class="material-symbols-outlined">arrow_back_ios_new</span>
+                <div class="carousel">
+                    <img src="transient-img/transient-1/img-1.jpg" alt="img">
+                    <img src="transient-img/transient-1/img-2.jpg" alt="img">
+                    <img src="transient-img/transient-1/img-3.jpg" alt="img">
+                    <img src="transient-img/transient-1/img-4.jpg" alt="img">
+                </div>
+                <span id="right" class="material-symbols-outlined">arrow_forward_ios</span>
+            </div>
+            <div class="left-container">
+            <h1 id="transient-name">SUPER TRANSIENT</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+                anim id est laborum.</p>
+            <h3>₱5,000/night</h3>
+            </div>
+            <div class="right-container">
+                <fieldset id="checked">
+                    <!--TODO-->
+                    <label for="checkin">Check-in</label>
+                    <label for="checkout">Check-out</label>
+                </fieldset>
+
+                <h5>Guests</h5>
+                <div id="adult">Adults 
+                    <span id="minus-adult" class="material-symbols-outlined">remove</span> <p id="adult-number">1</p> 
+                    <span id="add-adult" class="material-symbols-outlined">add</span> </div>
+                <div id="children">Children
+                    <span id="minus-children" class="material-symbols-outlined">remove</span> <p id="children-number">0</p> 
+                    <span id="add-children" class="material-symbols-outlined">add</span></div>
+                <div id="infant">Infants
+                    <span id="minus-infant" class="material-symbols-outlined">remove</span> <p id="infant-number">0</p> 
+                    <span id="add-infant" class="material-symbols-outlined">add</span></div>
+            </div>
+            
+        </div>
+
+        <!--PERSONAL INFORMATION-->
+        <!-- TO-DO PA:
+            DISABLE BUTTON IF NOT FILLED UP
+        -->
+        <div id="personal-information">
+            <!-- GAWA NI KENSHIN NICOPY LANG WAG MO ICOMMIT-->
+            <h1>PERSONAL INFO</h1>
+                <fieldset id="full-name">
+                    <legend></legend>
+                    <div>
+                        <label for="lastName">Last Name</label>
+                        <input id="lastName" name="lastName" type="text" required>
+                    </div>
+                    <div>
+                        <label for="firstName">First Name</label>
+                        <input id="firstName" name="firstName" type="text" required>
+    
+                    </div>
+                </fieldset>
+                <fieldset id="sex">
+                    <legend>Sex</legend>
+                    <input id="male" name="gender" type="radio" checked="checked">
+                    <label for="male">Male</label>
+                    <input id="female" name="gender" type="radio">
+                    <label for="female">Female</label>
+                    <input id="non" name="gender" type="radio">
+                    <label for="non">Non-binary</label>
+                </fieldset>
+                <fieldset>
+                    <legend></legend>
+                    <div>
+                        <!--TODO numbers only dapat-->
+                        <label for="cell">Contact Number</label>
+                        <input id="cell" name="cell" inputmode="tel" type="tel" required>
+                    </div>
+                </fieldset>
+                <fieldset id="address">
+                    <legend></legend>
+                    <div>
+                        <label for="addr">Address</label>
+                        <input id="addr" name="addr" type="text" required>
+                    </div>
+                    <div>
+                        <label for="zip">ZIP</label>
+                        <input id="zip" name="zip" type="number" required>
+                    </div>
+                </fieldset>
+                <!-- GAWA NI KENSHIN NICOPY LANG WAG MO ICOMMIT-->
+        </div>
+
+        <!--PAYMENT INFORMATION-->
+        <!--TO-DO PA:
+            DISABLE BUTTON IF HASNT CHOSEN
+            MEDJ EMPTY PA-->
+        <div id="payment-information">
+            <h1>Payment Method</h1>
+            <div class="breakdown">
+                <div class="top">
+                    <h4>Unit</h4>
+                    <img src="transient-img/transient-1/img-1.jpg" alt="img">
+                    <p>Super Transient</p> <br>
+                    <p>address of this transient</p>
+                </div>
+            <div class="bot">
+            <h4>Price Details</h4>
+            <p>₱5,000/night</p> <p id="nights">x5</p> <!-- replace this with calculations-->
+            <hr>
+            <p>Total</p> <p id="total">P25,000</p> <!-- replace this with calculations-->
+            </div>
+            </div>
+            <div class="payment-method">
+                <div class="card">
+                  <div class="p-type">
+                    <input type="radio" name="rd" id="one">
+                    <input type="radio" name="rd" id="two">
+                    <label for="one" class="box first">
+                      <div class="plan">
+                      <span class="pay-circle"></span>
+                      <span class="payment">CASH</span>
+                        </div>
+                    </label>
+                    <label for="two" class="box second">
+                      <div class="plan">
+                      <span class="pay-circle"></span>
+                      <span class="payment">GCASH</span>
+                    </div>
+                    </label>
+                  </div>
+                 </div>
+            </div>
+        </div>
+
+        <!--SUMMARY-->
+        <!--TO-DO PA:
+            NO INFO YET 
+        -->
+        <div id="summary">
+            <img src="img/completed.png" alt="img">
+            <h1>Booking Completed</h1>
+            <div class="summary-label">
+            <p>Transient Name: </p>
+            <p>Booker Name:</p>
+            <p>Check-in Date:</p>
+            <p>Check-out Date:</p>
+            <p>Number of Nights:</p>
+            <p>Guests:</p>
+            </div>
+            <div class="summary-info">
+
+            </div>
+        </div>
+    </div>
+      </div>
+
+    <!--BUTTONS-->
+      <div class="buttons">
+        <button id="prev" disabled>Prev</button>
+        <a class="return" href ="#"><button id="next">Next</button></a>
+      </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer>
+        <p>TRANSERV</p>
+    </footer>
+  </body>
+</html>
