@@ -3,9 +3,20 @@ const sort = document.querySelector(".sort-box"),
   sortAll = sort.querySelectorAll(".sort"),
   col = document.getElementsByClassName("sort-btn")
   selectBtn = document.querySelector(".select-btn"),
-    items = document.querySelectorAll(".item")
+    items = document.querySelectorAll(".item"),
+    filterItems = document.querySelectorAll('.filter li')
 
 ;
+
+//FILTER CHANGE
+filterItems.forEach(item => {
+    item.addEventListener('click', function() {
+        filterItems.forEach(filterItem => {
+            filterItem.classList.remove('active-filter');
+        });
+        item.classList.add('active-filter');
+    });
+});
 
 //EXPAND SORT
 var i;

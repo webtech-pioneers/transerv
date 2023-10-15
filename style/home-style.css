@@ -118,12 +118,17 @@ div#transient-list{
     background-color: #E8E8E8;
     padding-left: 60px;
 }
-.filter-box ul li{
-	list-style: none;
-	padding: 10px;
-	margin: 10px;
-	float: left;
-	border-radius: 25px;
+.filter-box ul li {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    border-radius: 25px;
+    background: white;
+    width: 100px;
+}
+.filter-box ul li.active-filter{
+    background: #22D6F7;
 }
 .filter-box ul li a{
 	color: inherit;
