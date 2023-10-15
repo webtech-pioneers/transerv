@@ -1,17 +1,11 @@
 const sort = document.querySelector(".sort-box"),
-sortBtn = sort.querySelector(".sort-btn"),
-sortAll = sort.querySelectorAll(".sort"),
-col = document.getElementsByClassName("sort-btn")
-;
+  sortBtn = sort.querySelector(".sort-btn"),
+  sortAll = sort.querySelectorAll(".sort"),
+  col = document.getElementsByClassName("sort-btn")
+  selectBtn = document.querySelector(".select-btn"),
+    items = document.querySelectorAll(".item")
 
-//SORT SELECTION
-sortAll.forEach(option =>{
-	option.addEventListener("click", ()=> {
-		let selected = option.innerText;
-		sortBtn.innerText = selected;
-		console.log(selected);
-	})
-})
+;
 
 //EXPAND SORT
 var i;
@@ -26,6 +20,36 @@ for (i = 0; i < col.length; i++) {
     }
   });
 }
+//SORT CHANGE
+sortBtn.addEventListener("click", () => {
+  sortBtn.classList.toggle("open");
+});
+//SORT SELECTION
+sortAll.forEach(option =>{
+	option.addEventListener("click", ()=> {
+		let selected = option.innerText;
+		sortBtn.innerText = selected;
+		console.log(selected);
+	})
+})
+//TAG SELECTION CHANGE
+selectBtn.addEventListener("click", () => {
+  selectBtn.classList.toggle("open");
+});
+//TAG SELECTIONS
+items.forEach(item => {
+  item.addEventListener("click", () => {
+      item.classList.toggle("selected");
+      let checked = document.querySelectorAll(".selected"),
+          btnText = document.querySelector(".btn-text");
+          if(checked && checked.length > 0){
+              btnText.innerText = `${checked.length} Selected Tags`;
+          }else{
+              btnText.innerText = "Select Tags";
+          }
+  });
+})
+
 document.addEventListener('DOMContentLoaded', function() {
   let currentPage = 1;
   const roomsPerPage = 10;

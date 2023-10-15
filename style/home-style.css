@@ -138,29 +138,32 @@ div#transient-list{
 	font-weight:bold;
 }
 
-.sort-box{
-    height: 20px;
-    width: 20%;
-    padding: 10px;
+.sort-box,
+.tag-box{
+    position: relative;
+    max-width: 320px;
+    width: 30%;
+    float: right;
+    margin: 80px auto 30px;
+    margin-top:20px;
+    margin-right: 20px;
+}
+.sort-btn,
+.select-btn{
     display: flex;
-    flex-direction: column;
-    margin-right:90px;
-    z-index: 1;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
-.sort-box .sort-btn{
-	display: flex;
-	height: 55px;
-	background-color: transparent;
-	padding: 20px;
-	border-radius: 15px;
-	align-items: right;
-	justify-content: right;
-	cursor: pointer;
-	box-shadow: 0 0 5px rgba(0,0,0,0,1);
-}
-
-.sort-box  .sort-btn i{
-	width: 20px;
+.select-btn .btn-text{
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
 }
 .sort-box .sort-select{
 	position: relative;
@@ -180,11 +183,75 @@ div#transient-list{
 	border-radius: 15px;
 	align-items: center;
 	background: white;
-}
+} 
 .sort:hover {
 	background: #22D6F7;
 }
-
+.sort-btn .material-symbols-outlined,
+.select-btn .material-symbols-outlined{
+    display: flex;
+    height: 21px;
+    width: 21px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 50%;
+    background: #22D6F7;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.sort-btn.open .material-symbols-outlined,
+.select-btn.open .material-symbols-outlined{
+    transform: rotate(-180deg);
+}
+.list-items{
+    position: relative;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+.select-btn.open ~ .list-items{
+    display: block;
+}
+.list-items .item{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 0 15px;
+    border-radius: 8px;
+}
+.list-items .item:hover{
+    background-color: #e7edfe;
+}
+.item .item-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+}
+.item .material-symbols-outlined{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 16px;
+    width: 16px;
+    border-radius: 4px;
+    margin-right: 12px;
+    border: 1.5px solid #c0c0c0;
+    transition: all 0.3s ease-in-out;
+}
+.item.selected{
+    background-color: #22D6F7;
+    border-style: 2px solid white;
+}
+.item.selected {
+    transform: scale(1);
+}
 .filter-sort-box {
     display: flex;
     width: 100%;
