@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Yeseva+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yeseva One', serif;
+  }
+  p{
+    font-family: 'Gabarito', sans-serif;
+  }
+  body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f6f7fb;
+  }
+ 
+/*NAVIGATION BAR*/
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 10px 1%;
+    background-image: linear-gradient(to right, #22D6F7 , #40A8DC);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
+
+.logo {
+	cursor: pointer;
+	margin-right: auto;
+    width: 150px;
+}
+
+.nav_links{
+	list-style: none;
+    text-decoration: none;
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_links a {
+	transition: all 0.3s ease 0s;
+    color: black;
+}
+
+.nav_links li a:hover {
+	color: white;
+}
+
+
+.find {
+	margin-left: 20px;
+    height: 30px;
+    width: 70px;
+	background-color: #22D6F7;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+.find:hover {
+	background-color: white;
+}
+/*NAVIGATION ENDS HERE */
+
+/* PROGRESS BAR*/
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 50px 0;
+    padding-top: 100px;
+}
+.label {
+    margin: 0;
+    display:inline-block;
+    top: 140px;
+    position: absolute;
+}
+.label p{
+    display: inline-block;
+}
+#t-info{
+    color:#22D6F7;
+}
+#p-info{
+    margin-left: 300px;
+}
+#pa-info{
+    margin-left: 220px;
+  }
+#s-info{
+    margin-left: 300px;
+}
+.container .steps {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.steps .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    color: #999;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 50%;
+    background: #fff;
+    border: 4px solid #e0e0e0;
+    transition: all 200ms ease;
+    transition-delay: 0s;
+}
+.steps .circle.active {
+    transition-delay: 100ms;
+    border-color: #22D6F7;
+    color: #22D6F7;
+}
+.steps .progress-bar {
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: #e0e0e0;
+    z-index: -1;
+}
+.progress-bar .indicator {
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #22D6F7;
+    transition: all 300ms ease;
+}
+.container .buttons {
+    display: flex;
+    gap: 930px;
+}
+.buttons button {
+    padding: 8px 25px;
+    background: #22D6F7;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    transition: all 200ms linear;
+    width: 180px;
+    height: 40px;
+}
+.buttons button:active {
+    transform: scale(0.97);
+}
+.buttons button:disabled {
+    background: #E8E8E8;
+    cursor: not-allowed;
+}
+  
+/*PROGRESS BAR ENDS HERE*/
+
+/*CONTENT SECTIONS*/
+#section-body {
+    border-radius: 25px;
+    background: #E8E8E8;
+    padding: 20px;
+    width: 1300px;
+    height: 100%;
+    display: flex;
+}
+#personal-information, 
+#payment-information,
+#summary {
+    display: none;
+}
+
+/*TRIP DETAILS*/
+.img-container .carousel {
+	white-space: nowrap;
+    overflow:hidden;
+
+}
+.img-container{
+    display:flex;
+	max-width:1200px;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+    padding: 20px;
+    margin-left: 30px;
+}
+.img-container .carousel{
+    display:flex;
+}
+.carousel img{
+	height: 460px;
+	object-fit: cover;
+	width: calc(100% / 3);
+align-items: center;
+margin-left: 15px;
+justify-content: center;
+scroll-behavior: smooth;
+}
+.carousel img:first-child{
+	margin-left: 0px;
+}
+
+.img-container span{
+height: 46px;
+width: 46px;
+text-align: center;
+list-style: none;
+line-height: 46px;
+border-radius: 50%;
+cursor: pointer;
+background: white;
+top: 50%;
+position: absolute;
+font-size: 1.2rem;
+transform: translateY(-50%);
+
+}
+
+.img-container span:first-child{
+left:-25px;
+}
+
+.img-container span:last-child{
+right:-25px;
+}
+.left-container {
+    float: left;
+    width: 50%;
+    margin-left: 50px;
+    text-align: justify;
+}
+.left-container h3{
+    margin-top: 30px;
+}
+.right-container {
+    float: right;
+    width: 43%;
+}
+
+.right-container span{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    list-style: none;
+    /* line-height: 46px; */
+    border-radius: 50%;
+    cursor: pointer;
+    background: black;
+    font-size: 1.2rem;
+    color:#E8E8E8;
+    /* top: 50%; */
+    /* position: absolute;
+    font-size: 1.2rem;
+    transform: translateY(-50%); */
+}
+
+div#adult, div#children, div#infant {
+    display: flex;
+    padding: 10px;
+}
+p#adult-number,
+span#add-adult,
+span#minus-children,
+p#children-number,
+span#add-children,
+span#add-children,
+p#infant-number,
+span#add-infant {
+    margin-left: 10px;
+}
+span#minus-adult {
+    margin-left: 28px;
+}
+span#minus-infant {
+    margin-left: 20px;
+}
+
+/* PERSONAL INFORMATION */
+div#personal-information{
+    width:100%;
+}
+legend {
+    margin-right: 50px;
+    display: inline-block;
+}
+fieldset{
+    display: flex;
+    margin: 20px;
+    border-style: none;
+}
+label{
+    margin-left: 10px;
+}
+#lastName {
+    border-radius: 25px;
+    background: white;
+    padding: 20px;
+    width: 600px;
+    height: 5px;
+    border-style: none;
+    display: block;
+    margin-right: 30px;
+}
+#firstName {
+    border-radius: 25px;
+    background: white;
+    padding: 20px;
+    width: 600px;
+    height: 5px;
+    border-style: none;
+    display: block;
+}
+#sex{
+    width:45%;
+    float: right;
+}
+#male, #female, #non {
+    margin-left: 20px;
+}
+#cell {
+    width:55%;
+    float: left;
+    border-radius: 25px;
+    background: white;
+    padding: 20px;
+    width: 600px;
+    height: 5px;
+    border-style: none;
+    display: block;
+}
+#addr{
+    border-radius: 25px;
+    background: white;
+    padding: 20px;
+    width: 1100px;
+    height: 5px;
+    border-style: none;
+    display: block;
+    margin-right: 30px;
+}
+#zip{
+    border-radius: 25px;
+    background: white;
+    padding: 20px;
+    width: 100px;
+    height: 5px;
+    border-style: none;
+    display: block;
+
+}
+
+/*PAYMENT INFORMATION*/
+div#payment-information{
+    width:100%;
+}
+.breakdown{
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+}
+
+.breakdown img{
+    width:200px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 5%;
+}
+.breakdown .top h4 {
+    margin-top: 20px;
+    margin-left: 5px;
+    
+}
+.breakdown .top p{
+    position: relative;
+    bottom: 140px;
+    margin-left: 220px;
+}
+.breakdown .bot{
+    bottom: 30px;
+    position: relative;
+}
+.breakdown .bot p{
+    display: inline-block;
+}
+#nights,  #total {
+    float: right;
+}
+.payment-method{
+    width:65%;
+    float:right;
+}
+
+::selection{
+    background: #d5bbf7;
+}
+.card{
+    width: 100%;
+    padding: 20px;
+}
+.p-type {
+    display: flex;
+}
+.card .title{
+    font-size: 22px;
+    font-weight: 500;
+}
+.card .content{
+    margin-top: 20px;
+}
+.card  label.box{
+    background: #ddd;
+    width: 500px;
+    height: 60px;
+    margin-top: 12px;
+    padding: 10px 12px;
+    display: flex;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+#one:checked ~ label.first,
+#two:checked ~ label.second,
+#three:checked ~ label.third{
+    border-color: #22D6F7;
+    background: #31DBFA;
+  }
+.card  label.box:hover{
+    background: #31DBFA;
+}
+.card  label.box .pay-circle{
+    height: 22px;
+    width: 22px;
+    background: #ccc;
+    border: 5px solid transparent;
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 50%;
+    transition: all 0.25s ease;
+    box-shadow: inset -4px -4px 10px rgba(0, 0, 0, 0.2);
+}
+#one:checked ~ label.first .pay-circle,
+#two:checked ~ label.second .pay-circle,
+#three:checked ~ label.third .pay-circle{
+    border-color: #22D6F7;
+    background: #fff;
+}
+.card  label.box .plan{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.card input[type="radio"]{
+    display: none;
+}
+
+/*SUMMARY*/
+#summary{
+    width: 100%;
+}
+#summary img{
+    width:100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+}
+#summary h1 {
+    text-align: center;
+    margin-top: 5px;
+}
+.summary-label{
+    float: left;
+    margin-left: 200px;
+    display: block;
+    line-height: 25px;
+    margin-top:10px;
+}
+
+/*CONTENT SECTIONS ENDS HERE*/
+
+/* FOOTER */
+footer {
+    position: fixed;
+    height: 40px;
+    padding: 10px 1%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(to right, #22D6F7 , #40A8DC);
+    color: black;
+    text-align: center;
+}
+/*FOOTER ENDS HERE*/  
