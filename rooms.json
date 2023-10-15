@@ -20998,5 +20998,26 @@
             "events": true,
             "work": true
         }
+    },
+    {
+        "roomId": 777,
+        "roomName": "La Trinidad",
+        "price": 5000,
+        "beds": 5,
+        "bedrooms": 5,
+        "tags": {
+            "wifi": false,
+            "tv": false,
+            "kitchen": true,
+            "tub": false,
+            "smoking": false,
+            "pets": true,
+            "parking": false,
+            "pool": false,
+            "mountain": true,
+            "garden": false,
+            "events": true,
+            "work": true
+        }
     }
 ]
