@@ -223,6 +223,29 @@ div#transient-list .btn{
     margin-right:auto;
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+#prevButton, #nextButton {
+    padding: 10px 20px; 
+    background-color: #007BFF;
+    color: #fff; 
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#prevButton:disabled, #nextButton:disabled {
+    background-color: #ccc; 
+    cursor: not-allowed;
+}
+
+#prevButton {
+    margin-right: 20px; 
+}
+
 div#about{
     background-color: white;
     height:500px;
