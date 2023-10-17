@@ -395,6 +395,20 @@ div#transient-list .btn {
     margin-right: auto;
 }
 
+.box h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.box p:nth-child(4) {
+    font-size: 18px;
+}
+
+.box p:nth-child(5) {
+    font-size: 19px;
+    font-weight: bold;
+}
+
 .button-container {
     display: block;
     text-align: center;
