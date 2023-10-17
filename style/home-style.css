@@ -1,21 +1,14 @@
 @font-face {
     font-family: 'alyssum';
-    src: local("Alyssum-Sans"),
-    url('./res/fonts/Alyssum-Sans.ttf');
+    src: local('Alyssum Sans'),
+    url('./res/fonts/Alyssum-Regular.ttf') format('truetype');
 }
-
-@font-face {
-    font-family: 'prata';
-    src: local("Prata"),
-    url('./res/fonts/Prata.ttf');
-}
-
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'prata', serif;
+    font-family: sans-serif;
 }
 
 /*NAVIGATION BAR*/
@@ -34,7 +27,7 @@ header {
     padding: 10px 1%;
     background-image: linear-gradient(to right, #22D6F7, #40A8DC);
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     width: 100%;
 }
 
@@ -104,13 +97,14 @@ div#home h1 {
     font-size: 90px;
     color: white;
     margin-left: 150px;
-    font-family: 'alyssum', sans-serif;
+    font-family: 'alyssum';
     text-transform: uppercase;
     font-weight: 500px;
     /* text-shadow: 2px 2px black; */
 }
 
 div#home h4 {
+    font-family: 'Trebuchet MS';
     position: absolute;
     top: 500px;
     font-size: 30px;
@@ -122,13 +116,12 @@ div#home h4 {
 /*SEARCH*/
 #search-container {
     text-align: center;
-    font-family: 'prata';
     padding-top: 60px;
     background-color: #E8E8E8;
 }
 
 #searchbar {
-    font-family: 'prata';
+    font-family: sans-serif;
     font-size: 20px;
     height: 50px;
     width: 600px;
@@ -198,7 +191,8 @@ div#transient-list {
   .filter-box ul li a {
     color: inherit;
     text-decoration: none;
-    font-family: "prata";
+    font-family: sans-serif;
+    font-weight: bold;
   }
   
   .filter-box ul li:hover {
@@ -229,15 +223,26 @@ div#transient-list {
 
 .sort-btn,
 .select-btn {
+    z-index: -1;
     display: flex;
     height: 50px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0 16px;
     border-radius: 8px;
     cursor: pointer;
     background-color: #fff;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.select-btn:hover {
+    transition: all 0.3s ease 0s;
+    background: #22D6F7;
+}
+
+.sort-btn:hover {
+    transition: all 0.3s ease 0s;
+    background: #22D6F7;
 }
 
 .select-btn .btn-text {
@@ -247,7 +252,8 @@ div#transient-list {
 }
 
 .sort-box .sort-select {
-    position: relative;
+    position: absolute;
+    z-index: 1;
     padding: 10px;
     border-radius: 5px;
     margin-top: 10px;
@@ -268,6 +274,7 @@ div#transient-list {
 }
 
 .sort:hover {
+    transition: all 0.3s ease 0s;
     background: #22D6F7;
 }
 
@@ -291,7 +298,8 @@ div#transient-list {
 }
 
 .list-items {
-    position: relative;
+    position: absolute;
+    z-index: 1;
     margin-top: 15px;
     border-radius: 8px;
     padding: 16px;
@@ -350,6 +358,7 @@ div#transient-list {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
     background-color: #E8E8E8;
 }
 
@@ -363,7 +372,7 @@ div#transient-list .box {
     text-align: left;
     padding-bottom: 20px;
     width: 400px;
-    font-family: 'prata';
+    font-family: sans-serif;
 }
 
 div#transient-list img {
@@ -387,8 +396,8 @@ div#transient-list .btn {
 }
 
 .button-container {
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
     margin-top: 20px;
 }
 
@@ -399,6 +408,7 @@ div#transient-list .btn {
     color: #fff;
     cursor: pointer;
     font-size: 16px;
+    width: 20%;
 }
 
 #prevButton:disabled,
@@ -411,10 +421,14 @@ div#transient-list .btn {
     margin-right: 20px;
 }
 
-div#about {
+#about {
+    padding: 20px;
     background-color: white;
     height: 500px;
+    text-align: center;
 }
+
+
 
 /* FOOTER */
 footer {
@@ -426,6 +440,10 @@ footer {
     background-image: linear-gradient(to right, #22D6F7, #40A8DC);
     color: black;
     text-align: center;
+}
+
+footer p {
+    font-family: 'alyssum';
 }
 
 /*FOOTER ENDS HERE*/

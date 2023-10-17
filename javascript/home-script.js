@@ -3,9 +3,7 @@ const sort = document.querySelector(".sort-box"),
   sortAll = sort.querySelectorAll(".sort"),
   col = document.getElementsByClassName("sort-btn")
   selectBtn = document.querySelector(".select-btn"),
-    items = document.querySelectorAll(".item")
-
-;
+    items = document.querySelectorAll(".item");
 
 //EXPAND SORT
 var i;
