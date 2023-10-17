@@ -33,38 +33,36 @@ imgIcons.forEach((icon) => {
 //adult guests
 let a = parseInt(adultNum.textContent);
 addAdult.addEventListener("click", () => {
-  adultNum.textContent = parseInt(adultNum.textContent) + 1;
+    a++;
+    adultNum.textContent = a;
 })
 minusAdult.addEventListener("click", () => {
-  if (parseInt(adultNum.textContent) > 1) {
-    adultNum.textContent = parseInt(adultNum.textContent) - 1;
-  }
+    a--
+    adultNum.textContent = a;
 })
-
 
 //children guests
+let b = parseInt(childrenNum.textContent);
 addChildren.addEventListener("click", () => {
-  childrenNum.textContent = parseInt(childrenNum.textContent) + 1;
+    b++;
+    childrenNum.textContent = b;
 })
 minusChildren.addEventListener("click", () => {
-  if (parseInt(childrenNum.textContent) > 0) {
-    childrenNum.textContent = parseInt(childrenNum.textContent) - 1;
-  }
+    b--
+    childrenNum.textContent = b;
 })
 
-
 //infant guests
+let c = parseInt(infantNum.textContent);
 addInfant.addEventListener("click", () => {
-  infantNum.textContent = parseInt(infantNum.textContent) + 1;
+    c++;
+    infantNum.textContent = c;
 })
 
 minusInfant.addEventListener("click", () => {
-  if (parseInt(infantNum.textContent) > 0) {
-    infantNum.textContent = parseInt(infantNum.textContent) - 1;
-  }
+    c--
+    infantNum.textContent = c;
 })
-
-
 
 
 //progress bar
@@ -99,14 +97,6 @@ const updateSteps = (e) => {
     //buttons
     nextButton.textContent = 'Next';
     prevButton.disabled = false;
-
-//personal info
-if (document.getElementById("lastName") === "" || document.getElementById("firstName") === "" 
-|| document.getElementById("cell")=== "" || document.getElementById("addr") === ""|| document.getElementById("zip") === "") {
-  nextButton.disabled = true;
-} else {
-  nextButton.disabled = false;
-}
 
     //content
     document.getElementById("personal-information").style.display = 'block';

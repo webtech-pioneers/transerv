@@ -5,103 +5,186 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baguio Transient Reservation Form</title>
-    <link rel="stylesheet" href="style/style.css">
-    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style/home-style.css">
+    <script src="javascript/home-script.js" defer></script>
 </head>
-
 <body>
-    <div class="timeline-container">
-        <ul class="timeline">
-          <li class="trip-details">Trip Details</li>
-          <li class="personal-information">Personal Information</li>
-          <li class="payment-method">Payment Information</li>
-          <li class="summary">Summary</li>
-        </ul>
+    <!--NAVIGATION BAR-->
+    <header>
+        <img class="logo" src="res/images/logo.png" alt="logo">
+            <ul class="nav_links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#find">Find</a></li>
+            </ul>
+    </header>
+
+    <!--HOME-->
+    <div id="home">
+        <img src="res/images/baguio.png" alt="house">
+        <h1>Beyond the Mist:</h1>
+        <h4>Find your Baguio Escape!</h4>
     </div>
 
-    <form action="/" method="GET">
-        <!--PERSONAL INFO COLUMN-->
-        <div class="col">
-            <h1>PERSONAL INFO</h1>
-            <fieldset>
-                <legend>Full Name</legend>
-                <div>
-                    <label for="lastName">Last Name</label>
-                    <input id="lastName" name="lastName" type="text" required>
+    <!--FILTER/SORT-->
+    <section id="find">
+        <div id="search-container">
+            <input id="searchbar" type="text" placeholder="Search for transient...">
+            <div class="filter-sort-box">
+                <div class="filter-box">
+                    <ul class="filter">
+                        <li data-filter="all"><a href="#">All</a></li>
+                        <li data-filter="house"><a href="#">House</a></li>
+                        <li data-filter="apartment"><a href="#">Apartment</a></li>
+                        <li data-filter="condo"><a href="#">Condo</a></li>
+                    </ul>
                 </div>
-                <div>
-                    <label for="firstName">First Name</label>
-                    <input id="firstName" name="firstName" type="text" required>
+                <div class="sort-box">
+                    <div class="sort-btn">Sort</div>
+                    <ul class="sort-select">
+                        <li class="sort">Sort</li>
+                        <li class="sort">Popular (High to Low)</li>
+                        <li class="sort">Price (Low to High)</li>
+                        <li class="sort">Name (A-Z)</li>
+                    </ul>
+                </div>
 
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Gender</legend>
-                <input id="male" name="gender" type="radio" checked="checked">
-                <label for="male">Male</label>
-                <input id="female" name="gender" type="radio">
-                <label for="female">Female</label>
-                <input id="non" name="gender" type="radio">
-                <label for="non">Non-binary</label>
-            </fieldset>
-            <fieldset>
-                <legend>Contact Details</legend>
-                <div>
-                    <!--TODO numbers only dapat-->
-                    <label for="cell">Contact Number</label>
-                    <input id="cell" name="cell" inputmode="tel" type="tel" required>
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Address</legend>
-                <div>
-                    <label for="addr">Address Line</label>
-                    <input id="addr" name="addr" type="text" required>
-                </div>
-                <div>
-                    <label for="zip">ZIP</label>
-                    <input id="zip" name="zip" type="number" required>
-                </div>
-            </fieldset>
+                
+    <div class="tag-box">
+        <div class="select-btn">
+            <span class="btn-text">Select Tag</span>
+            <span class="material-symbols-outlined">expand_more</span>
         </div>
-        <!--RESERVATION INFO COLUMN-->
-        <div class="col">
-            <h1>RESERVATION INFO</h1>
-            <fieldset>
-                <legend>Trip Details</legend>
-                <!--TODO-->
-                <label for="checkin">Check-in</label>
-                <label for="checkout">Check-out</label>
-            </fieldset>
-            <fieldset>
-                <legend>Guests</legend>
-                <div>
-                    <label for="adults">Adults</label>
-                    <input id="adults" name="adults" type="number" required>
-                </div>
-                <div>
-                    <label for="children">Children</label>
-                    <input id="children" name="children" type="number" required>                        
-                </div>
-                <div>
-                    <label for="infants">Infants</label>
-                    <input id="infants" name="infants" type="number" required>
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Payment Information</legend>
-                <div>
-                    <label for="nights">Nights</label>
-                    <input id="nights" name="nights" type="number" required>
-                </div>
-                <div>
-                    <label for="paymethod">Payment Method</label>
-                </div>
-            </fieldset>
+        <ul class="list-items">
+            <li class="item">Wi-Fi</li>
+            <li class="item">TV</li>
+            <li class="item">Tub</li>
+            <li class="item">Smoking</li>
+            <li class="item">Pets</li>
+            <li class="item">Parking</li>
+            <li class="item">Pool</li>
+            <li class="item">Mountain</li>
+            <li class="item">Garden</li>
+            <li class="item">Events</li>
+            <li class="item">PWork</li>
+        </ul>
         </div>
-        <button type="submit" id="submit">Submit</button>
-    </form>
-    <div id="output">N/A</div>
-</body>
+    </div>
+    </section>
+    
 
+    <!--LIST OF TRANSIENTS-->
+    <div id="transient-list">
+        <div class="box">
+            <img src="res/images/transient-1.jpg" alt="transient">
+            <h3>Fremont</h3>
+            <p>Type: <span class="room-type"></span></p>
+            <p>Beds: <span class="beds"></span> | Rooms: <span class="rooms"></span></p>
+            <p>Price: <span class="price"></span> Php/night</p>
+            <p class="tags">  </p>
+            <a href="form.html" class="btn">Reserve</a>
+        </div>
+
+
+        <div class="box">
+            <img src="res/images/transient-1.jpg" alt="transient">
+            <h3>Fremont</h3>
+            <p>Type: <span class="room-type"></span></p>
+            <p>Beds: <span class="beds"></span> | Rooms: <span class="rooms"></span></p>
+            <p>Price: <span class="price"></span> Php/night</p>
+            <p class="tags"></p>
+            <a href="form.html" class="btn">Reserve</a>
+        </div>
+
+        <div class="box">
+            <img src="res/images/transient-1.jpg" alt="transient">
+            <h3>Fremont</h3>
+            <p>Type: <span class="room-type"></span></p>
+            <p>Beds: <span class="beds"></span> | Rooms: <span class="rooms"></span></p>
+            <p>Price: <span class="price"></span> Php/night</p>
+            <p class="tags"></p>
+            <a href="form.html" class="btn">Reserve</a>
+        </div>
+        <div class="box">
+            <img src="res/images/transient-1.jpg" alt="transient">
+            <h3>Fremont</h3>
+            <p>Type: <span class="room-type"></span></p>
+            <p>Beds: <span class="beds"></span> | Rooms: <span class="rooms"></span></p>
+            <p>Price: <span class="price"></span> Php/night</p>
+            <p class="tags"></p>
+            <a href="form.html" class="btn">Reserve</a>
+        </div>
+        <div class="box">
+            <img src="res/images/transient-1.jpg" alt="transient">
+            <h3>Fremont</h3>
+            <p>Type: <span class="room-type"></span></p>
+            <p>Beds: <span class="beds"></span> | Rooms: <span class="rooms"></span></p>
+            <p>Price: <span class="price"></span> Php/night</p>
+            <p class="tags"></p>
+            <a href="form.html" class="btn">Reserve</a>
+        </div>
+        <div class="box">
+            <img src="res/images/transient-1.jpg" alt="transient">
+            <h3>Fremont</h3>
+            <p>Type: <span class="room-type"></span></p>
+            <p>Beds: <span class="beds"></span> | Rooms: <span class="rooms"></span></p>
+            <p>Price: <span class="price"></span> Php/night</p>
+            <p class="tags"></p>
+            <a href="form.html" class="btn">Reserve</a>
+        </div>
+        <div class="box">
+            <img src="res/images/transient-1.jpg" alt="transient">
+            <h3>Fremont</h3>
+            <p>Type: <span class="room-type"></span></p>
+            <p>Beds: <span class="beds"></span> | Rooms: <span class="rooms"></span></p>
+            <p>Price: <span class="price"></span> Php/night</p>
+            <p class="tags"></p>
+            <a href="form.html" class="btn">Reserve</a>
+        </div>
+        <div class="box">
+            <img src="res/images/transient-1.jpg" alt="transient">
+            <h3>Fremont</h3>
+            <p>Type: <span class="room-type"></span></p>
+            <p>Beds: <span class="beds"></span> | Rooms: <span class="rooms"></span></p>
+            <p>Price: <span class="price"></span> Php/night</p>
+            <p class="tags"></p>
+            <a href="form.html" class="btn">Reserve</a>
+        </div>
+        <div class="box">
+            <img src="res/images/transient-1.jpg" alt="transient">
+            <h3>Fremont</h3>
+            <p>Type: <span class="room-type"></span></p>
+            <p>Beds: <span class="beds"></span> | Rooms: <span class="rooms"></span></p>
+            <p>Price: <span class="price"></span> Php/night</p>
+            <p class="tags"></p>
+            <a href="form.html" class="btn">Reserve</a>
+        </div>
+        <div class="box">
+            <img src="res/images/transient-1.jpg" alt="transient">
+            <h3>Fremont</h3>
+            <p>Type: <span class="room-type"></span></p>
+            <p>Beds: <span class="beds"></span> | Rooms: <span class="rooms"></span></p>
+            <p>Price: <span class="price"></span> Php/night</p>
+            <p class="tags"></p>
+            <a href="form.html" class="btn">Reserve</a>
+        </div>
+
+        <div class="button-container">
+            <button id="prevButton">Previous</button>
+            <button id="nextButton">Next</button>
+        </div>
+    </div>
+
+    <!--ABOUT-->
+    <div id="about">
+        <h1>About Us</h1>
+
+    </div>
+
+    <!--FOOTER-->
+    <footer>
+        <p>TRANSERV</p>
+    </footer>
+  </body>
 </html>
+
